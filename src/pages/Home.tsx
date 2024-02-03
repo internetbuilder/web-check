@@ -156,8 +156,8 @@ const Home = (): JSX.Element => {
       <FancyBackground />
       <UserInputMain onSubmit={formSubmitEvent}>
         <Heading as="h1" size="xLarge" align="center" color={colors.primary}>
-          <img width="64" src="/web-check.png" alt="Web Check Icon" />
-          Web Check
+          <img width="64" src="/web-check.png" alt="OSINT Check Icon" />
+          OSINT Check
         </Heading>
         <Input
           id="user-input"

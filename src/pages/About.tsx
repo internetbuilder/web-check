@@ -111,7 +111,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a href="https://w3layers.com/pricing"><Button>Subscribe</Button></a>
+          <a href="https://w3layers.com/pricing"><Button>Subscribe </Button></a>
         </HeaderLinkContainer>
       </Nav>
 

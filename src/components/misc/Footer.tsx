@@ -50,7 +50,7 @@ const Footer = (props: { isFixed?: boolean }): JSX.Element => {
       Subscribe <Link href={githubUrl}>w3layers.com</Link>
     </span>
     <span>
-      <Link href="/about">About Web Check</Link> -
+      <Link href="/about">About OSINT Check</Link> -
       © <Link href={authorUrl}>Jordan Bourbonnais</Link> 2024
     </span>
   </StyledFooter>
