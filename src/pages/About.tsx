@@ -187,15 +187,7 @@ const About = (): JSX.Element => {
           {fairUse.map((para, index: number) => (<li>{para}</li>))}
         </ul>
         <hr />
-        <Heading as="h3" size="small" color={colors.primary}>Privacy</Heading>
-        <p>
-        Analytics are used on the demo instance (via a self-hosted Plausible instance), this only records the URL you visited but no personal data.
-        There's also some basic error logging (via a self-hosted GlitchTip instance), this is only used to help me fix bugs.
-        <br />
-        <br />
-        Neither your IP address, browser/OS/hardware info, nor any other data will ever be collected or logged.
-        (You may verify this yourself, either by inspecting the source code or the using developer tools)
-        </p>
+        
       </Section>
     </AboutContainer>
     <Footer />
