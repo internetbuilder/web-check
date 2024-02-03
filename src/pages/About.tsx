@@ -111,7 +111,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a href="https://w3layers.com/pricing"><Button>Subscribe </Button></a>
+          <a href="https://w3layers.com/pricing"><Button>Subscribe for more tools</Button></a>
         </HeaderLinkContainer>
       </Nav>
 
@@ -187,7 +187,7 @@ const About = (): JSX.Element => {
           {fairUse.map((para, index: number) => (<li>{para}</li>))}
         </ul>
         <hr />
-        
+
       </Section>
     </AboutContainer>
     <Footer />

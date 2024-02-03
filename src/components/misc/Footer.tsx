@@ -47,7 +47,7 @@ const Footer = (props: { isFixed?: boolean }): JSX.Element => {
   return (
   <StyledFooter style={props.isFixed ? {position: 'fixed'} : {}}>
     <span>
-      Subscribe <Link href={githubUrl}>w3layers.com</Link>
+      <Link href={githubUrl}>Subscribe for more tools</Link>
     </span>
     <span>
       <Link href="/about">About OSINT Check</Link> -
