@@ -111,7 +111,7 @@ const About = (): JSX.Element => {
     <AboutContainer>
       <Nav>
         <HeaderLinkContainer>
-          <a href="https://github.com/lissy93/web-check"><Button>View on GitHub</Button></a>
+          <a href="https://w3layers.com/pricing"><Button>Subscribe</Button></a>
         </HeaderLinkContainer>
       </Nav>
 
@@ -121,14 +121,7 @@ const About = (): JSX.Element => {
           <p key={index}>{para}</p>
         ))}
         <hr />
-        <p>
-          Web-Check is developed and maintained by <a href="https://aliciasykes.com">Alicia Sykes</a>.
-          It's licensed under the <a href="https://github.com/Lissy93/web-check/blob/master/LICENSE">MIT license</a>,
-          and is completely free to use, modify and distribute in both personal and commercial settings.<br />
-          Source code and self-hosting docs are available on <a href="https://github.com/lissy93/web-check">GitHub</a>.
-          If you've found this service useful, consider <a href="https://github.com/sponsors/Lissy93">sponsoring me</a> from $1/month,
-          to help with the ongoing hosting and development costs.
-        </p>
+       
       </Section>
       
       <Heading as="h2" size="medium" color={colors.primary}>Features</Heading>
