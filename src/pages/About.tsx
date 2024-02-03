@@ -179,11 +179,15 @@ const About = (): JSX.Element => {
         ))}
       </Section>
 
+
       <Heading as="h2" size="medium" color={colors.primary}>Additional Resources</Heading>
       <AdditionalResources />
 
+      
+
       <Heading as="h2" size="medium" color={colors.primary}>Terms & Info</Heading>
       <Section>
+      
         <hr />
         <Heading as="h3" size="small" color={colors.primary}>Fair Use</Heading>
         <ul>
