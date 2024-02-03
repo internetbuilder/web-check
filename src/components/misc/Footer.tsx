@@ -43,14 +43,14 @@ const Link = styled.a`
 const Footer = (props: { isFixed?: boolean }): JSX.Element => {
   const licenseUrl = 'https://w3layers.com';
   const authorUrl = 'https://jordanbourbonnais.com';
-  const githubUrl = 'https://w3layers.com';
+  const githubUrl = 'https://w3layers.com/pricing';
   return (
   <StyledFooter style={props.isFixed ? {position: 'fixed'} : {}}>
     <span>
       Subscribe <Link href={githubUrl}>w3layers.com</Link>
     </span>
     <span>
-      <Link href="/about">Web-Check</Link> -
+      <Link href="/about">About Web Check</Link> -
       © <Link href={authorUrl}>Jordan Bourbonnais</Link> 2024
     </span>
   </StyledFooter>
