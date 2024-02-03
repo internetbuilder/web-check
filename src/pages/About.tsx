@@ -270,12 +270,8 @@ const About = (): JSX.Element => {
       <Section>
       <Heading as="h3" size="small" color={colors.primary}>License</Heading>
         <b>
-          <a href="https://github.com/lissy93/web-check">Web-Check</a> is distributed under the MIT license,
-          © <a href="https://aliciasykes.com">Alicia Sykes</a> { new Date().getFullYear()}
+           { new Date().getFullYear()}
         </b>
-        <br />
-        <small>For more info, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal → MIT</a></small>
-        <pre>{license}</pre>
         <hr />
         <Heading as="h3" size="small" color={colors.primary}>Fair Use</Heading>
         <ul>
